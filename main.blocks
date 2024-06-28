@@ -1,7 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="b3z#mF^CY~J);oz/W1GD" x="0" y="0"></block><block type="device_button_event" id="175}VO~-N)Y-CdjvH/pg" x="258" y="67"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="music_playable_play" id="aiK.HZ[prI]2BYej,hkj"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="k!n#}1N`RWH2lNti+|`k"><field name="soundExpression">soundExpression.giggle</field></shadow></value></block></statement></block><block type="device_while" id="M^e:QQk:[Sl4^:AF6_Ip" disabled="true" x="148" y="227"><value name="COND"><shadow type="logic_boolean" id="=r[/eyuU4N4M$*Yl8NqH" disabled="true"><field name="BOOL">TRUE</field></shadow></value></block><block type="device_button_event" id="fW=5n[S1bTW#u9rcxWDM" x="596" y="260"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="music_playable_play" id="DK`!%angt,(?p,+f6upH"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="harq@5:*^@L8s7H(A~mm"><field name="soundExpression">soundExpression.hello</field></shadow></value></block></statement></block><block type="device_button_event" id="$6lTV;$nxu1pNRHFM%g5" x="523" y="614"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="dJ@[nX/It^hf2kB=30Yg"><field name="LEDS">`
-        . . # # . 
-        # . # . # 
-        . . # . # 
-        # . # . # 
-        . . # # .
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="175}VO~-N)Y-CdjvH/pg" x="258" y="67"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id=":+R^1]5!7+ce*vqw{JIz"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="music_playable_play" id="aiK.HZ[prI]2BYej,hkj"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="k!n#}1N`RWH2lNti+|`k"><field name="soundExpression">soundExpression.giggle</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="fW=5n[S1bTW#u9rcxWDM" x="596" y="260"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="]VEKwzKA^DM5~%0U})jT"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="music_playable_play" id="DK`!%angt,(?p,+f6upH"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="harq@5:*^@L8s7H(A~mm"><field name="soundExpression">soundExpression.hello</field></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id="tm4:,xr_dXlM`O(;/y=X" x="224" y="657"><statement name="HANDLER"><block type="device_while" id="ysNIe)Kwuj{Ur$(lD,37"><value name="COND"><shadow type="logic_boolean" id="x1Sc3%3rh2p./:F.%w|4" disabled="true"><field name="BOOL">FALSE</field></shadow><block type="deviceisgesture" id="dsb[z?eu-a4Me3Ya++hV"><field name="gesture">Gesture.ScreenUp</field></block></value><statement name="DO"><block type="music_playable_play" id="5rSmroA|^Ij%5g^UmlB-"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="b,{aQl`,]Cz,-|3D|]hR"><field name="soundExpression">soundExpression.yawn</field></shadow></value><next><block type="device_print_message" id="9U5P`IRk43=MdtTt(Z5e"><value name="text"><shadow type="text" id="{nY}H_H:Sm8q7LGYyVL6"><field name="TEXT">zzzzz</field></shadow></value></block></next></block></statement><next><block type="device_while" id="KS;):|yB8-b3#!;uKN=p"><value name="COND"><shadow type="logic_boolean" disabled="true"><field name="BOOL">FALSE</field></shadow><block type="deviceisgesture" id=")p/r[`3yu.mC;Ams]19H"><field name="gesture">Gesture.ScreenDown</field></block></value><statement name="DO"><block type="music_playable_play" id="BgUhcMH:]~,hP#$OxnFC"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="O2w!{6(0H#J!9J)mo.Z#"><field name="soundExpression">soundExpression.sad</field></shadow></value></block></statement></block></next></block></statement></block><block type="device_button_event" id="$6lTV;$nxu1pNRHFM%g5" x="849" y="668"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="dJ@[nX/It^hf2kB=30Yg"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
         `</field></block></statement></block></xml>
